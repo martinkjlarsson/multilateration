@@ -1,0 +1,5 @@
+# Multilateration
+This repository contains suplementary materials associated with the paper Multilateration as an Eigenvalue Problem (in print).
+
+## Abstract
+Multilateration, positioning a receiver using pseudodistances to known senders, is a problem with 5G and GNSS positioning applications. In contrast, trilateration uses direct distances and was reformulated as an eigenvalue problem in a recent work, resulting in a very competitive positioning method. This paper extends that reformulation to a more general class of problems subsuming multilateration and trilateration. The resulting multilateration method is fast, accurate, and numerically stable, outsourcing complex implementation details to existing mature eigensolvers. By allowing for reweightings of the terms, an iteratively reweighted least squares approach is feasible and can be used to improve the proposed algorithm further. Additionally, we demonstrate how partially known receiver positions are handled with experiments using real-world 5G data. The proposed method is evaluated against the state of the art and shown to be among the most accurate while remaining fast.
